@@ -7,7 +7,7 @@ module.exports = {
     type: 'specificRepos',
     repos: [
       'vidl',
-      'probablykasper/embler',
+      'kasper9n/embler',
     ],
     modifyVariables: function(repo, moment, user) {
       repo.REPO_CREATED_MYDATE = moment(repo.REPO_CREATED_TIMESTAMP).format('YYYY MMMM Do')
